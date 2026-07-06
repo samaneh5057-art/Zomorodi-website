@@ -19,9 +19,6 @@
 }
 
 
-.navbar-brand img {
-    height: 55px;
-}
 
 
 
@@ -69,4 +66,98 @@
 .navbar-toggler {
     border: none;
     box-shadow: none !important;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* =========================
+   HERO SECTION
+========================= */
+
+.hero{
+    position: relative;
+}
+
+.hero .carousel-item img{
+    height: 100vh;
+    width: 100%;
+    object-fit: cover;
+    filter: brightness(0.55);
+}
+
+
+.hero-caption{
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    text-align: center;
+    padding: 20px;
+}
+
+
+.hero-caption h1{
+    font-size: 60px;
+    font-weight: 700;
+    color: #fff;
+    text-shadow: 0 5px 25px rgba(0,0,0,0.5);
+    letter-spacing: 1px;
+}
+
+.hero-caption p{
+    font-size: 18px;
+    color: #e6e6e6;
+    max-width: 650px;
+    margin-top: 12px;
+    line-height: 1.6;
+}
+
+
+.hero-btn{
+    margin-top: 22px;
+    padding: 12px 30px;
+    border-radius: 30px;
+    background: #7BE495;
+    color: #0b0b0b;
+    font-weight: 500;
+    border: none;
+    text-decoration: none;
+    transition: 0.3s ease;
+}
+
+.hero-btn:hover{
+    background: #5fd67c;
+    transform: translateY(-3px);
+    box-shadow: 0 10px 25px rgba(123, 228, 149, 0.3);
+}
+
+.carousel-control-prev-icon,
+.carousel-control-next-icon{
+    background-color: rgba(0,0,0,0.4);
+    border-radius: 50%;
+    padding: 20px;
+}
+
+
+.carousel-fade .carousel-item{
+    transition: opacity 1s ease-in-out;
 }
