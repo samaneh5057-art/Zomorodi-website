@@ -1,0 +1,84 @@
+/* ===== ABOUT SECTION ===== */
+.about {
+    background-color: #fff;
+    padding: 80px 0;
+}
+
+/* image */
+.about img{
+    width: 100%;
+    max-width: 500px;
+    height: 400px;
+    object-fit: cover;
+    border-radius: 15px;
+    box-shadow: 0 10px 30px rgba(0,0,0,.1);
+    transition: .3s;
+}
+.about img:hover {
+    transform: scale(1.03);
+}
+
+/* title */
+.about h2 {
+    font-size: 36px;
+    font-weight: 700;
+    margin-bottom: 20px;
+    color: #0b0b0b;
+}
+
+/* text */
+.about p {
+    font-size: 16px;
+    color: #555;
+    line-height: 1.8;
+}
+
+/* button */
+.about .btn-success {
+    margin-top: 15px;
+    padding: 10px 25px;
+    border-radius: 30px;
+    background: #7BE495;
+    border: none;
+    color: #000;
+    transition: 0.3s ease;
+}
+
+.about .btn-success:hover {
+    background: #5fd67c;
+    transform: translateY(-2px);
+}
+
+/* ===== Responsive ===== */
+
+@media (max-width: 992px){
+
+    .about{
+        text-align: center;
+    }
+
+    .about img{
+        margin-bottom: 30px;
+    }
+
+    .about h2{
+        font-size: 30px;
+    }
+
+}
+
+@media (max-width: 768px){
+
+    .about{
+        padding: 60px 0;
+    }
+
+    .about h2{
+        font-size: 26px;
+    }
+
+    .about p{
+        font-size: 15px;
+    }
+
+}
