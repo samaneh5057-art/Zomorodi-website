@@ -335,6 +335,86 @@
 
 
 
+
+
+
+
+
+/* ======================
+    COLLECTION
+====================== */
+
+.collection-section{
+    background:#fff;
+    padding:90px 0;
+}
+
+/* title */
+.collection-title{
+    font-size:42px;
+    font-weight:700;
+    color:#111;
+}
+
+/* paragraph */
+.collection-desc{
+    color:#6c757d;
+    max-width:600px;
+    margin:15px auto 0;
+    line-height:1.8;
+}
+
+/* CARD */
+.collection-card{
+    border:2px solid #34d399;
+    border-radius:18px;
+    overflow:hidden;
+    position:relative;
+    background:#fff;
+    transition:.35s;
+    box-shadow:0 10px 25px rgba(0,0,0,.06);
+}
+
+/* hover effect */
+.collection-card:hover{
+    transform:translateY(-8px);
+    box-shadow:0 20px 40px rgba(52,211,153,.25);
+}
+
+/* image fix (حل مشکل سایزها) */
+.collection-card img{
+    width:100%;
+    height:280px;
+    object-fit:cover;
+    transition:.4s;
+}
+
+/* zoom on hover */
+.collection-card:hover img{
+    transform:scale(1.08);
+}
+
+/* green overlay */
+.collection-card::after{
+    content:"";
+    position:absolute;
+    inset:0;
+    background:rgba(52,211,153,.12);
+    opacity:0;
+    transition:.3s;
+}
+
+.collection-card:hover::after{
+    opacity:1;
+}
+
+
+
+
+
+
+
+
 /* =======================
      TESTIMONIAL SECTION
 ======================= */
