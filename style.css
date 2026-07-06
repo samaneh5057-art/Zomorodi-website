@@ -162,3 +162,96 @@
 .carousel-fade .carousel-item{
     transition: opacity 1s ease-in-out;
 }
+
+
+
+
+
+/* =========================
+   SERVICES SECTION (LUXURY)
+========================= */
+
+.services{
+    background: linear-gradient(135deg, #0b1f17, #0f2e22);
+    color: #fff;
+    padding: 80px 0;
+}
+
+/* Title */
+.services h2{
+    font-size: 38px;
+    font-weight: 700;
+    color: #7BE495;
+    margin-bottom: 50px;
+}
+
+/* Card */
+.service-card{
+    background: rgba(255, 255, 255, 0.08);
+    border: 1px solid rgba(123, 228, 149, 0.2);
+    border-radius: 16px;
+    backdrop-filter: blur(10px);
+    padding: 30px;
+    transition: 0.3s ease;
+    height: 100%;
+    color: #fff;
+}
+
+/* Hover effect */
+.service-card:hover{
+    transform: translateY(-10px);
+    background: rgba(123, 228, 149, 0.12);
+    border: 1px solid #7BE495;
+    box-shadow: 0 10px 30px rgba(123, 228, 149, 0.25);
+}
+
+/* Card title */
+.service-card h4{
+    color: #7BE495;
+    font-weight: 600;
+    margin-bottom: 10px;
+}
+
+/* Card text */
+.service-card p{
+    font-size: 14px;
+    color: #ddd;
+    line-height: 1.6;
+}
+
+/* =========================
+   RESPONSIVE DESIGN
+========================= */
+
+@media (max-width: 992px){
+    .services h2{
+        font-size: 32px;
+    }
+}
+
+@media (max-width: 768px){
+
+    .services{
+        text-align: center;
+        padding: 60px 0;
+    }
+
+    .services h2{
+        font-size: 28px;
+    }
+
+    .service-card{
+        padding: 25px;
+    }
+}
+
+@media (max-width: 576px){
+
+    .services h2{
+        font-size: 24px;
+    }
+
+    .service-card{
+        margin: 0 10px;
+    }
+}
