@@ -173,7 +173,6 @@
     color: #fff;
 }
 
-/* title */
 .services h2{
     font-size: 38px;
     font-weight: 700;
@@ -181,7 +180,7 @@
     margin-bottom: 40px;
 }
 
-/* card */
+
 .service-card{
     background: rgba(255, 255, 255, 0.08);
     border: 1px solid rgba(123, 228, 149, 0.2);
@@ -200,7 +199,7 @@
     line-height: 1.6;
 }
 
-/* hover effect */
+
 .service-card:hover{
     transform: translateY(-10px);
     background: rgba(123, 228, 149, 0.12);
@@ -208,14 +207,13 @@
     box-shadow: 0 10px 30px rgba(123, 228, 149, 0.2);
 }
 
-/* card title */
+
 .service-card h4{
     color: #7BE495;
     margin-bottom: 10px;
     font-weight: 600;
 }
 
-/* text */
 .service-card p{
     font-size: 14px;
     color: #ddd;
