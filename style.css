@@ -664,7 +664,7 @@
 }
 
 .contact-form:hover {
-    background-color: #227136;
+    border-color: #23c34b;
 }
 
 .contact-form .form-control {
